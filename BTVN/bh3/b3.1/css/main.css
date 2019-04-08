@@ -15,6 +15,7 @@
 }
 .so {
 	color: red;
+	font-weight: bold;
 }
 .so:hover {
 	color: blue;

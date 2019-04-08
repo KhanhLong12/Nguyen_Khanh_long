@@ -1,0 +1,124 @@
+body {
+	background-image: url("../images/tuyet.jpg"); 
+}
+.container{
+	 width: 75%;
+	margin: 0 auto;
+	background: white;
+	border:4px solid white;
+}
+#header {
+	background-image: url(../images/123.jpg);
+	background-size: 100%;
+	height: 500px;
+}
+.menu {
+	background-color: #434343;
+	border-bottom: 1px solid #ff7300;
+}
+.menu>p {
+	display: inline-block;
+}
+.menu>p>a {
+	color: orange;
+	padding:5px;
+	border-right: 1px solid #dfdfdf;
+}
+.menu a {
+	text-decoration: none;
+}
+.menu a:hover {
+	color:blue;
+}
+
+.left{
+	width: 20%;
+	float: left;
+}
+.danhmuccbg{
+	background-image: url("../images/menu_bar.gif");
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background-size: 100%;
+}
+.p1:hover {
+	color: red;
+	cursor: pointer;
+}
+.danhmuc p {
+	margin: 0px;
+	padding:5px;
+}
+.center {
+	padding-left: 20px;
+	width: 55%;
+	float: left;
+	padding-right: 20px;
+}
+.center p.mau{
+	color: #ff7300;
+}
+.right {
+	width: 20%;
+	float: left;
+}
+.danhmuc{
+	border: 1px solid #e1e1e1;
+}
+.center1 {
+	padding-left: 10px;
+	background-color: #f7af6e;
+	border-radius: 15px;
+}
+.main_left{
+	background-image: url(../images/main_bar_left.gif);
+	background-size: 100%;
+	padding:5px;
+}
+.content2>div>img{
+	width: 25%;
+	float: left;
+}
+.content2>div>p {
+	width: 75%;
+	float: left;
+}
+.content2 p{
+	margin: 0px;
+
+}
+.main_right{
+	background-image: url(../images/main_bar_right.gif);
+	text-align: right;
+	background-size: 100%;
+	padding:5px;
+}
+.content3>div>img{
+	width: 25%;
+	float: right;
+}
+.content3>div>p {
+	width: 75%;
+	float: left;
+}
+.content3 p.mau{
+	float: right;
+}
+.content3 p {
+	margin: 0px;
+}
+
+#footer{
+	height: 50px;
+}
+.footer2{
+	background-color: #434343;
+	height: 50px;
+	border-top: 2px solid #ff7300;
+}
+.footer2 p.pc {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

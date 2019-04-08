@@ -1,0 +1,22 @@
+.item {
+	width: 10%;
+	display: inline-block; /* chuyển thành 1 dòng*/
+	border: 1px solid grey;
+}
+.item:hover {
+	border: 1px solid orange;
+}
+.chu {
+	color: orange;
+}
+.chu:hover {
+	color: green;
+	cursor: pointer;
+}
+.so {
+	color: red;
+}
+.so:hover {
+	color: blue;
+	cursor: pointer;/* khi trỏ vào chuyển hình*/
+}

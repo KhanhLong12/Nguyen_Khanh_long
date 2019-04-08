@@ -1,0 +1,71 @@
+.red, .text {
+	color: blue ;
+	font-size: 30px;
+}
+#Long {
+	color: red;
+}
+body {
+}
+
+
+
+.box > .item /* dấu > là con trực tiếp của thẻ box có chứa item*/ {
+	color: green;
+}
+#zent ~ .item /*tất cả các thẻ đằng sau có cùng bậc*/{
+	color: red;
+}
+#zent + .item {
+	color: #e1e1e1;
+}
+
+
+.zent:hover {
+	color: red;
+}
+
+
+ul>li:last-child {
+	font-size: 50px;
+}
+ul>li:first-child {
+	font-size: 20px;
+}
+
+/*body {
+	background-image: url("../images/zentt.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 10000px;
+	width: 10000px;
+	background-position: left bottom;
+}*/
+p.p2{
+	font-family: sans-serif, "Times new Roman", Arial;/*nhận từng phông chữ nếu như phông chữ trước ko có*/
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	vertical-align: bottom;
+	color: blue;
+}
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+p.p1 {
+	font-style: oblique ;
+	text-align: center;
+	text-decoration: overline;
+	letter-spacing: 5px;
+}
+
+div {
+	height: 300px;
+	width: 300px;
+	overflow:scroll;
+	float: right;
+}
+p{
+	clear:right;
+}

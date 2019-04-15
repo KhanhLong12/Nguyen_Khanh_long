@@ -14,15 +14,16 @@ body{
 	float: left;
 	line-height: 40px;
 	padding: 0px 10px;
+	border-left: 1px solid white;
 	}
 .item>.anh{
 	height: 40px;
 	padding-right: 0px;
 	padding-left: 0px;
-	border-left: 1px solid #8ec757;
+	border-left: 1px solid #8ec757 !important;
 }
 .item>.chu{
-	border-left: 1px solid #8ec757;
+	border-left: 1px solid #8ec757 !important;
 }
 .item li.item1{
 	cursor: pointer;

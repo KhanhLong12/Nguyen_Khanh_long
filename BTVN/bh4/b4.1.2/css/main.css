@@ -1,0 +1,105 @@
+body{
+	height: 500px;
+	background: black;
+}
+#menu{
+	height: 40px;
+	background: #78b43d;
+}
+.item{
+	padding-left: 0px;
+}
+.item>.item1{
+	position: relative;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	padding: 0px 10px;
+	}
+.item>.anh{
+	height: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-left: 1px solid #8ec757;
+}
+.item>.chu{
+	border-left: 1px solid #8ec757;
+}
+.item li{
+	cursor: pointer;
+	border-left: 1px solid white;
+}
+.item li a{
+	text-decoration: none;
+	color: white;
+}
+.item>.mau:hover{
+	background: #ec7b0d;
+}
+.item>.item1:hover a{
+	color: blue;
+
+}
+.submenu{
+	display: none;
+	padding: 0px;
+	position: absolute;
+	background: #aad862;
+	width: 200px;
+	left: 0px;
+}
+.submenu li i{
+	color: white;
+	padding: 0px 5px;
+}
+.item>.item1:hover .submenu{
+	display: block;
+}
+
+.item .search{
+	float: right;
+	border: 1px solid #8ec757;
+	padding-right: 15px;
+	border-radius: 20px;
+	margin-right: 20px; 
+	height: 38px;
+}
+.submenu li{
+	list-style: none;
+	border-bottom: 1px solid #78b43d;
+	padding-left: 5px;
+}
+.submenu li:hover{
+	background:#296ce5;
+}
+.submenu li a.a1{
+	color: black !important;
+}
+.submenu li:hover a.a1{
+	color: white !important ;
+}
+.submenu>.item2{
+	position: relative;
+}
+.submenub {
+	display: none;
+	position: absolute;
+	left: 100%;
+	width: 200px;
+	background: #78b43d;
+	top: 0px;
+	padding: 0px;
+}
+.submenub li {
+	border-bottom: 1px solid #aad862;
+	padding-left: 20px;
+}
+.submenu>.item2:hover .submenub{
+	display: block;
+}
+.submenub li a{
+	color: black !important; 
+}
+.submenub li:hover a{
+	color: white !important;
+}

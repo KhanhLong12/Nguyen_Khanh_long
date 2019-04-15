@@ -1,17 +1,21 @@
 
 .img1 {
-	float: left;
+	float:left;
+	padding-right: 10px;
+	padding: 0px;
 }
-.anh {
+.chu2{
 	margin: 0px;
-	padding:0 12px 0 10px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .chu1 {
 	float: left;
 	padding-left: 7px;
 	font-weight: bold;
 }
-.chu1:hover {
+p:hover {
 	color: red;
 	cursor: pointer;
 	border-bottom: 1px solid red;

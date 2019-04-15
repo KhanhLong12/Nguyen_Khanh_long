@@ -1,0 +1,48 @@
+body {
+	background: black;
+	height: 1000px;
+}
+#item1 {
+	height: 40px;
+	background: blue;
+	padding-left: 0px;
+}
+#item1>.item{
+	position: relative;
+	float: left;
+	list-style: none;
+	line-height: 40px;
+	padding: 0px 10px;
+}
+#item1>.item a {
+	text-decoration: none;
+	color: white;
+}
+#item1>.item:hover{
+	background: red;
+}
+#item1>.item:hover a{
+	color: yellow;
+}
+.submenu{
+	display: none;
+	background: green;
+	width: 200px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+}
+.submenu li {
+	list-style: none;
+	padding-left: 8px;
+
+}
+.submenu li:hover{
+	background: orange;
+}
+#item1>.item:hover .submenu{
+	display: block;
+}
+.submenu li a:hover{
+	color: white !important;
+}

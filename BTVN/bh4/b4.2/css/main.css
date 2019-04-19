@@ -7,9 +7,19 @@ body{
 	width: 850px;
 	position:relative;
 }
+#header .menu h1{
+	margin: 30px;
+}
+#header .menu ul{
+	margin: -50px;
+}
 #header .menu ul li{
 	float: left;
 	list-style: none;
+}
+.menu h1 a{
+	text-decoration: none;
+	color: black;
 }
 
 .menu ul li a{
@@ -18,10 +28,10 @@ body{
 	padding:5px;
 	border:1px solid transparent;
 }
-#header .menu ul li.r{
+#header .menu ul li{
 	float: right;
 	padding-right: 10px;
-	margin-top:45px ;
+	margin-top: ;
 }
 
 .menu ul li.r:hover a{
@@ -34,7 +44,7 @@ body{
 /*phần content*/
 #content{
 	width: px;
-	margin-top:5%; 
+	margin-top:7%; 
 }
 .left{
 	float: left;

@@ -1,0 +1,41 @@
+div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      position: relative;
+      background-color: red;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+    }
+@keyframes example{
+	0%{
+		top:0px;
+		left: 0px;
+	}
+	25%{
+		top:0px;
+		left: 500px;
+	}
+	50%{
+		top: 500px;
+		left: 500px;
+	}
+	75%{
+		top: 500px;
+		left: 0px;
+	}
+	100%{
+		top:0px;
+		left: 0px;
+	}
+	to {background-color: blue;}
+}
+@font-face{
+	font-family:"abc";
+	src: url("../acidpunk.ttf");
+}
+p{
+	font-family:"abc";
+}

@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#menu{
+	background: green;
+	height: 42px;
+}
+#menu li.item:first-child{
+	display: none;
+	color: white;
+}
+
+#menu li.item{
+	float: left;
+	list-style: none;
+	line-height: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#menu li.item:hover {
+	background: blue;
+}
+
+#menu li.item a{
+	color:#fff;
+	text-decoration: none;
+}
+/*thuộc tính nhỏ hơn 520px*/
+@media (max-width: 520px) {
+	#menu li.item{
+		display: none;
+	}
+	#menu li.item:first-child{
+		display: block;
+	}
+	#menu:hover  li.item{
+		display: block;
+		float: none;
+		background: green;
+	}
+	#menu li.item:hover{
+		background: blue;
+		cursor: pointer;
+	}
+}

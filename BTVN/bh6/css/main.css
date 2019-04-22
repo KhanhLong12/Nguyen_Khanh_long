@@ -107,8 +107,9 @@
 	width: 60%;
 	margin: 0 1%;
 }
-.cencontent h3{
+.cencontent h3 a{
 	color: #61bfb1;
+	text-decoration: none;
 }
 .cencontent .cenleft p a{
 	color: #9dcec6;

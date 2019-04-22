@@ -184,7 +184,7 @@ a{
 	width: 49%;
 	float: left;
 	padding-right: 5px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 .head p{
 	margin: 5px 0px;
@@ -314,7 +314,7 @@ span a:hover{
 }
 .tonghoplon .tonghopblon{
 	overflow-x: hidden;
-	height: 340px;
+	height: 330px;
 }
 .tonghop{
 	width: 60%;
@@ -414,6 +414,9 @@ span a:hover{
 	color: #d2577e;
 }
 
+.bossfoot {
+	height: 20%;
+}
 .bossfoot .foothead i{
 	float: left;
 	color: #df6b2c;
@@ -427,10 +430,9 @@ span a:hover{
 .bossfoot .footfoot{
 	margin-top: 10px;
 	border-top: 1px solid #df6b2c;
-	width: 137%;
 	background:#ffe4d5; 
 	padding: 5px 10px;
-	height: 210px;
+
 }
 .bossfoot .footfoot .footfoot2{
 	width: 30%;

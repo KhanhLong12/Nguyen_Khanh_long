@@ -87,9 +87,7 @@
 	margin: 0 1%;
 	display: inline-block;
 }
-#content .headcontent .content2 .ctimg{
-	float: left;
-}
+
 .headcontent p.foothead{
 	font-size: 8px;
 	color: #c5c3c3;
@@ -175,6 +173,7 @@
 	height: 60px;
 }
 #footer .cenfoot button{
+	cursor: pointer;
 	padding: 3px;
 	font-size: 12px;
 	margin-top: 10px;

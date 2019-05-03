@@ -1,5 +1,5 @@
-var M = prompt('Input M =');
 var N = prompt('Input N =');
+var M = prompt('Input M =');
 var K = prompt('Input K =');
 var i;
 var S=0;

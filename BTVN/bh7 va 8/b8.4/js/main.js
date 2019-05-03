@@ -5,6 +5,6 @@ var i;
 var S=0;
 for(i=N; i<=M; i++){
 	if(i%K==0)
-		S+=i;
+		S+=+i;
 }
 	alert(S);

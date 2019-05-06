@@ -6,9 +6,9 @@ var section= document.getElementsByClassName('section');
 				section[j].style.display = 'none'; 
 			}
 			this.nextElementSibling.style.display = 'block';
-				for (var i = 0; i < tab.length; i++) {
-					tab[i].style.background = '#666666';
-					tab[i].style.color='white';
+				for (var k = 0; k < tab.length; k++) {
+					tab[k].style.background = '#666666';
+					tab[k].style.color='white';
 				}
 				this.style.background= 'white';
 				this.style.color= 'black';

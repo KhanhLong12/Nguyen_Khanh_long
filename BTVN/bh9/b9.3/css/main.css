@@ -1,0 +1,69 @@
+body{
+	background-image:url("../hinhnen.jpg");
+}
+div {
+	display: inline-block;
+}
+.section{
+
+	position: absolute;
+	left: 8px;
+	background-color: white;
+	padding: 10px;
+	width: 80%;
+	height: 30%;
+	margin: 0px;
+	display: none;
+	color: #000333;
+}
+.section p,h2{
+	padding-left: 10px;
+}
+.tab {
+	cursor: pointer;
+	background-color: #666666;
+	color: white;
+	padding: 10px 20px; 
+	margin-bottom: 0px;
+	display: inline-block;
+}
+div> .tab:hover {
+	color: white;
+	opacity: 0.8;
+}
+h1{
+	color: #0066ff;
+}
+h2{
+	margin-top: 5px;
+}
+.foot p.right {
+	position: absolute;
+	bottom:10px;
+	right: 75px;
+	font-weight: bold;
+	color: #003366;
+}
+.foot p.left {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	margin: 16px 0;
+	font-weight: 700;
+}
+.foot p.left a.a1{
+	border-right: 1px solid black;
+	text-decoration: none;
+	color: #003366;
+	padding: 0 10px;
+}
+.foot p.left a.a1:hover{
+	text-decoration: underline;
+	opacity: 0.8;
+}
+.foot p.left a i{
+	color: #003366;
+}
+.foot p.left a i:hover{
+	opacity: 0.8;
+}

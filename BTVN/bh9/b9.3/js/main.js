@@ -7,10 +7,10 @@ var section= document.getElementsByClassName('section');
 			}
 			this.nextElementSibling.style.display = 'block';
 				for (var i = 0; i < tab.length; i++) {
-					tab[i].style.background = '#666666'
+					tab[i].style.background = '#666666';
+					tab[i].style.color='white';
 				}
 				this.style.background= 'white';
 				this.style.color= 'black';
-
 		})
 	}

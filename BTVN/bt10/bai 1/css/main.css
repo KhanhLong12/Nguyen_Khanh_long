@@ -1,0 +1,51 @@
+body{
+	background-image: url(../hinhnen.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+#daddy{
+	margin: 10% auto;
+}
+.form{
+	border: 1px solid black;
+	width: 65%;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.gt input{
+	cursor: pointer;
+	height: 15px;
+	padding-top: 10px;
+}
+p{
+	display: inline-block;
+	width: 20%;
+	padding-left: 10px;
+}
+.rows input{
+	width: 35%;
+}
+input{
+	display: inline-block;
+	height: 25px;
+	border-radius: 10px;
+}
+span{
+	display: inline-block;
+	width: 30%;
+	color: red;
+	padding-left: 80px;
+}
+.but{
+	margin-top: 20px;
+	text-align: center;
+}
+button{
+	margin: 0 50px;
+	cursor: pointer;
+	padding: 2px 15px;
+	background-color:#ff3333 ;
+	color: white;
+}

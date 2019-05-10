@@ -27,7 +27,7 @@ document.getElementById('addd').addEventListener('click', function(){
 												<td>`+ input.value +`</td>
 												<td>
 													<button onclick="removeItem(`+ i +`)">del</button>
-													<button onclick="removeItem(`+ i +`)">edit</button>
+													<button onclick="addEventListener(`+ i +`)">edit</button>
 												</td>
 												
 											</tr>`
@@ -56,5 +56,6 @@ document.getElementById('uncheckall').addEventListener('click', function(){
 })
 
 document.getElementById('delete').addEventListener('click',function(){
+	var checkbox = document.getElementsByTagName('input')
 	
 })

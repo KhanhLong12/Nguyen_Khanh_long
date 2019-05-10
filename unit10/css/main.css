@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#menu{
+	background-color: #666666;
+}
+#menu ul li{
+	float: left;
+	list-style: none;
+	padding: 20px;
+}
+#menu ul li a i{
+	display: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+#menu ul li a:hover{
+	color: blue;s
+}
+.head {
+	background: #999999;
+	padding: 20px;
+}
+.head a i{
+	color: green;
+	
+}
+.head{
+	display: none;
+}
+@media(max-width: 599px){
+	.head{
+		display: block;
+	}
+	#menu{
+		display: none;
+		font-size: 15px;
+	}
+	#menu ul li.an{
+		border-top: 1px solid white;
+	}
+	#menu ul li{
+		float: none;
+		cursor: pointer;
+	}
+	#menu ul li:hover {
+		background: orange;
+	}
+}

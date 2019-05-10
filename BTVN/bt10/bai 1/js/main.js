@@ -1,3 +1,18 @@
+function checkPhoneNumber(phone) {
+				var flag = false;
+				phone = phone.replace('(+84)', '0');
+				phone = phone.replace('+84', '0');
+				phone = phone.replace('0084', '0');
+				phone = phone.replace(/ /g, '');
+				if (phone != '') {
+					var firstNumber = phone.substring(0, 2);
+					if ((firstNumber == '09' || firstNumber == '08' || firstNumber == '03'|| firstNumber == '05'|| firstNumber == '02'|| firstNumber == '04'|| firstNumber == '07') && phone.length == 10) {
+						if (phone.match(/^\d{10}/)) {
+							flag = true;
+						}
+					} 
+					return flag;
+				}}
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
@@ -28,12 +43,15 @@ document.getElementsByClassName('submit')[0].addEventListener('click', function(
 				}
 
 	var phone = document.getElementsByClassName('phone')[0].value;
-		if (phone.trim()=="") {
+		if (phone=="") {
 			document.getElementsByClassName('phone-err')[0].innerHTML="! Yêu cầu nhập số điện thoại";
-		}	 else {
-				document.getElementsByClassName('phone-err')[0].innerHTML=" ";
-				dem++;	
-			} 
+		}	else if (checkPhoneNumber(phone)==false) {
+				document.getElementsByClassName('phone-err')[0].innerHTML="! Nhập sai số điện thoại";
+			}
+			 	else {
+					document.getElementsByClassName('phone-err')[0].innerHTML=" ";
+					dem++;	
+				} 
 
 	var pass = document.getElementsByClassName('pass')[0].value;
 		if (pass.trim()=="") {

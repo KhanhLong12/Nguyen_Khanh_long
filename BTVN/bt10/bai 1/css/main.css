@@ -25,7 +25,7 @@ p{
 	padding-left: 10px;
 }
 .rows input{
-	width: 35%;
+	width: 45%;
 }
 input{
 	display: inline-block;
@@ -34,9 +34,9 @@ input{
 }
 span{
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 	color: red;
-	padding-left: 80px;
+	padding-left: 50px;
 }
 .but{
 	margin-top: 20px;

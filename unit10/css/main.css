@@ -31,6 +31,7 @@
 .head{
 	display: none;
 }
+.show {display: block;}
 @media(max-width: 599px){
 	.head{
 		display: block;

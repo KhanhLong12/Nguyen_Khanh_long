@@ -56,6 +56,7 @@ document.getElementById('uncheckall').addEventListener('click', function(){
 })
 
 document.getElementById('delete').addEventListener('click',function(){
-	var checkbox = document.getElementsByTagName('input')
+	var checkbox = document.getElementsByTagName('input');
+	var content = document.getElementById('content');
 	
 })

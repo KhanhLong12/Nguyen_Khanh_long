@@ -1,0 +1,55 @@
+
+body{
+	background-image: url(../c1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dad{
+	border: 2px solid green;
+	border-radius: 20px 20px 0 0;
+}
+#container{
+	text-align: center;
+	height: 150px;
+	background-color: #ff3333;
+	padding: 20px 30px;
+	border-radius: 20px 20px 0 0 ;
+}
+#container>h2{
+	color: white;
+}
+input{
+	width: 78%;
+	height: 25%;
+	padding: 0 5px;
+	float: left;
+}
+button{
+	width: 20%;
+	height: 27.5%;
+	color: #999999;
+	float: left;
+	border: none;
+	cursor: pointer;
+}
+.conten{
+	width: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.del{
+	text-align: center;
+	cursor: pointer;
+	color: #ccccff;
+	margin: 0;
+	height: 40px;
+}
+.del:hover{
+	background-color: green;
+	color: white;
+}
+.hang{
+	height: 50px;
+}
+
+

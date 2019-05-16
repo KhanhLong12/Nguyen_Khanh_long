@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+body{
+	background-image: url('../images/bong.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+#anh{
+	margin: 0 auto;
+}
+.anhcon{
+	float: left;
+	width: 15%;
+	padding: 5px;
+}
+.anhcon img{
+	width: 100%;
+	box-shadow: 10px 10px 10px 10px #006699;
+	border: 3px solid white;
+	height: 200px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.anhcon img:hover{
+	box-shadow: 10px 5px 10px 10px white;
+	opacity: 0.7;
+}
+#anhto{
+	margin: 40px auto;
+	display: none;
+}
+
+.anhtocon{
+	position: absolute;
+	left: 23%;
+}
+.anhtocon img{
+	width: 150%;
+	border: 5px solid green;
+	border-radius: 10px;
+}
+#anhto .close i{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+#anhto .close i:hover{
+	opacity: 0.5;
+}
+

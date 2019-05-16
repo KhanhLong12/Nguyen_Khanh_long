@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #333300;
+}
+#menu{
+	background-color: green;
+	height: 50px;
+	width: 100%;
+}
+#menu>.item>.card{
+	position: relative;
+}
+
+.item li {
+	line-height: 50px;
+	padding: 0 20px;
+	cursor: pointer;
+	float: left;
+}
+.item>li:hover{
+	background: orange;
+}
+.item>li:hover a{
+	color: pink;
+}
+li{
+	list-style: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.item2{
+	display: none;
+	position: absolute;
+	background: green;
+	width: 200px;
+	padding: 0px;
+	left: 0px;
+}
+.item2>li{
+	border-top: 1px solid orange;
+}
+.item2>li:hover{
+	background-color: #669900;
+}
+.item2 li{
+	padding: 0px;
+	width: 100%;
+	padding-left:5px;
+	box-sizing: border-box; 
+	line-height: 40px;
+}
+.item2>li a {
+	color: white !important;
+}
+.item2 .card2{
+	position: relative;
+}
+.item3{
+	display: none;
+	position: absolute;
+	left: 100%;
+	background: #006699;
+	width: 200px;
+	top:0;
+	padding: 0;
+}
+.item3>li{
+	border-top: 1px solid #669900;
+}
+.item3>li:hover{
+	background-color:#3399cc;
+}

@@ -2,19 +2,18 @@
   margin: 0;
   padding: 0;
 }
-h2{
-  text-align: center;
-  color: white;
-}
 body{
   background-image: url('../images/hinhne.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
 }
 #anh{
   margin: 50px auto;
-  width: 90%;
+  width: 95%;
 }
 .anhcon{
   display: inline-block;
@@ -24,8 +23,8 @@ body{
 }
 .anhcon img{
   width: 100%;
-  box-shadow: 2px 2px 3px 3px blue;
-  border: 3px solid red;
+  box-shadow: 2px 2px 3px 3px red;
+  border: 3px solid orange;
   height: auto;
   border-radius: 10px;
   cursor: pointer;
@@ -33,6 +32,7 @@ body{
 .anhcon img:hover{
   box-shadow: 2px 2px 2px 2px red;
   opacity: 0.7;
+  border: 3px solid blue;
 }
 .anh{
   width: 100%;
@@ -47,9 +47,6 @@ body{
   border: 5px solid green;
   border-radius: 10px;
 }
-.mota{
-  color: white;
-}
 #anhto .close i{
   position: absolute;
   top: 10px;
@@ -63,4 +60,9 @@ body{
 }
 .close{
   display: none;
+}
+.mota{
+  display: none;
+  font-size: 20px;
+  color: white;
 }

@@ -1,15 +1,15 @@
 $('.anhcon').on('click',function(){
 	var id = $(this).data('id');
-		$('#anh').css('display','none');
-		$('#anh').siblings('h2').css('display','none');
+		$('#anh').fadeOut(0);
+		$('#anh').siblings('h2').fadeOut(0);
 		$('.close').css('display','block');
 		$('.anhtocon').css('display','none')
-		$('#anhtocon'+id).show(1000);
+		$('#anhtocon'+id).fadeIn(500);
 	})
 $('.close').on('click', function(){
 	$('.close').css('display','none');
-	$('#anh').css('display','block');
-	$('#anh').siblings('h2').css('display','block');
-	$('.anhtocon').hide(500);
+	$('#anh').show(500);
+	$('#anh').siblings('h2').show(500);
+	$('.anhtocon').slideUp(500);
 })
 

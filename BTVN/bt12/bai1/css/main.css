@@ -7,13 +7,13 @@ h2{
   color: white;
 }
 body{
-  background-image: url('../images/bong.jpg');
+  background-image: url('../images/hinhne.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 #anh{
-  margin: 0 auto;
+  margin: 50px auto;
   width: 90%;
 }
 .anhcon{
@@ -24,14 +24,14 @@ body{
 }
 .anhcon img{
   width: 100%;
-  box-shadow: 10px 10px 10px 10px #006699;
-  border: 3px solid white;
+  box-shadow: 2px 2px 3px 3px blue;
+  border: 3px solid red;
   height: auto;
   border-radius: 10px;
   cursor: pointer;
 }
 .anhcon img:hover{
-  box-shadow: 10px 5px 10px 10px white;
+  box-shadow: 2px 2px 2px 2px red;
   opacity: 0.7;
 }
 .anh{

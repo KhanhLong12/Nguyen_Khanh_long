@@ -1,0 +1,22 @@
+/*div.div1{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	display: none;
+}
+.rotate{
+	height: 800px;
+	background-color: green;
+	width: 100%;
+}
+.slideInUp{
+	height: 500px;
+	background-color: red;
+	width: 100%;
+}*/
+div{
+	height: 100px;
+	width: 100px;
+	display: none;
+	background-color: red;
+}

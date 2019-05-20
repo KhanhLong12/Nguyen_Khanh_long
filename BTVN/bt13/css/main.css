@@ -1,10 +1,11 @@
 body{
 	width: 70%;
 	margin: 0 auto;
+	opacity: 0.9;
 }
 .menu{
 	width: 100%;
-	background: #444444 !important;
+	background: #333333 !important;
 	height: 40px;
 }
 .menu ul li a{
@@ -85,10 +86,12 @@ p{
 .icon i:hover{
 	opacity: 0.5
 }
-.icon .row h6,a{
+.icon .row h6{
 	color: #333333;
 }
-
+.icon .row a{
+	text-decoration: none;
+}
 .row .anhcon{
 	padding: 0px;
 }
@@ -121,7 +124,7 @@ p{
 }
 
 .foot .row i{
-	font-size: 20px;
+	font-size: 22px;
 }
 .foot .row p a{
 	color: #333333;

@@ -1,0 +1,76 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+}
+
+#container{
+	width: 1050px;
+	margin: 0px auto;
+}
+
+#header{
+	text-align: center;
+	line-height: 60px;
+	font-size: 35px;
+	color: #595959;
+}
+
+#content{
+	margin-top: 20px;
+}
+.clr{
+	clear: both;
+}
+
+#content .img-content{
+	margin-left: 100px;
+	width: 378px;
+	float: left;
+	height: 900px;	
+}
+
+#content .signup-content{
+	margin-left: 122px;
+	width: 410px;
+	float: left;
+	background-color: #f1f1f1;
+	height: 900px;	
+	padding: 20px;
+}
+
+input[type="text"]{
+	line-height: 22px;
+	padding: 0px 5px;
+}
+
+input[type="password"]{
+	line-height: 22px;
+	padding: 0px 5px;
+}
+
+input[name="txtDay"]{
+	width: 50px;
+    margin-left: 15px;
+}
+
+input[name="txtYear"]{
+	width: 80px;
+    margin-left: 15px;
+}
+
+.input372{
+	width: 372px;
+}
+
+label{
+	display: inline-block;
+	margin:15px 0px 5px 0px;
+	font-weight: bold;
+}
+
+select{
+	width: 190px;
+	height: 25px;
+	padding: 0px 5px;
+}

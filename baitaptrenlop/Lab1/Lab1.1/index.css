@@ -1,0 +1,117 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clr{
+	clear: both;
+}
+
+.container{
+	width: 1000px;
+	margin: 0px auto;
+	padding: 10px 30px;
+}
+
+
+.container .intro{
+	
+}
+
+.container .intro .brand{
+	float: left;
+	width: 600px;
+
+}
+.container .intro .nav{
+	float: left;
+	width: 400px;
+	position: relative;
+}
+
+.container .intro .nav ul{
+	margin-right: 0px;
+	position: absolute;
+	top: 0px;
+	left: 300px;
+}
+
+.container .intro .nav li{
+	list-style-type: none;
+	display: inline-block;
+	border-right: 1px solid #333;	 
+}
+
+.container .intro .nav a{
+	color:#000;
+	text-decoration: none;
+}
+
+.container .intro .nav a:hover{
+	color:blue;
+	text-decoration: none;
+}
+
+.enter{
+	width: 700px;
+	height: 1px;
+	background-color: #d0d0d0;
+	margin-top: 13px;
+}
+
+
+
+.name{
+	
+}
+
+.name label{
+	display: inline-block;
+}
+
+
+table{
+	margin: 10px auto;
+	margin-bottom: 40px;
+}
+
+label{
+	
+}
+
+tr{
+	height: 32px;
+}
+
+td{
+	width: 450px;
+}
+
+.input25{
+	width: 43px;
+	margin-left: 6px;
+	padding: 3px 6px;
+}
+
+.input50{
+	width: 115px;
+	margin-left: 6px;
+	padding: 3px 6px;
+}
+
+.input100{
+	width: 270px;
+	margin-left: 6px;
+	padding: 3px 6px;
+}
+
+.textLabel{
+	text-align: right;
+	width: 220px;
+}
+
+.input254{
+	width: 254px;
+	margin-left: 6px;
+	padding: 3px 6px;
+}

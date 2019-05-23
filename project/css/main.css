@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	padding-left: 50px;
+	padding-right: 70px;
+	/*display: block;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+	width: 100%;*/
+}
+.menu>ul>li>a{
+	color: #666666;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+	font-size: 15px;
+}
+.menu>ul>li:last-child a{
+	color: black;
+	font-size: 12px;
+	border-bottom:none;
+	padding-top: 10px;
+}
+.menu>ul>li>a:hover{
+	border-bottom: 2px solid orange;
+	color:white;
+	opacity: 0.7;
+}
+.menu>ul>li:hover a{
+	background: green;
+}
+.pic img{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 560px;
+}
+.text1{
+	position: absolute;
+	top: 30%;
+	background: transparent;
+	color: white;
+	text-align: center;
+	left: 30%;
+}
+.text1 h1{
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.text1 a{
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+.text1 span{
+	font-size: 15px;
+	cursor: pointer;
+}
+.text-light{
+	margin-top: 120px;
+}
+.text1 span:hover{
+	color: #007bff;
+}
+.complain1{
+	padding: 80px 0;
+	text-align: center;
+}
+.complain1 p{
+	font-size: 12px;
+	color: #666666;
+}
+.son1{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+hr{
+	margin: 16px auto;
+	height: 2px;
+}
+.complain1 img{
+	margin: 20px 0;
+}
+
+.complain2{
+	background: whitesmoke;
+	padding-bottom: 0;
+}
+.complain2>img{
+	width:  80%;
+	margin-bottom:0px; 
+}
+.complain2 .row img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+.complain2 .row{
+	margin-left: 0;
+	margin-right: 0; 
+}
+.couterson{
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	top: 40%;
+	color: orange;
+	font-size: 25px;
+}
+.complain3{
+	padding-bottom: 0px;
+}
+.complain3 .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.complain3 .row ul{
+	margin: 0 auto;
+}
+.complain3 ul li{
+	background: #cc33cc;
+	font-size: 12px;
+}
+.complain3 .item-desc{
+	display: none;
+}
+.complain3 img{
+	cursor: pointer;
+}
+
+/*copanh*/
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+.simplefilter, .multifilter, .sortandshuffle, .search-row {
+  padding-left: 0;
+}
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #660066;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+/**/
+
+.complain4{
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+.complain4 p{
+	font-size: 12px;
+	color: #666666;
+}
+.complain4 .row .bo i{
+	background: whitesmoke;
+	padding: 50px;
+	font-size: 35px;
+	color: #999999;
+	cursor: pointer;
+	border: 1px solid;
+	
+}
+.complain4 .row .bo i:hover{
+	color: orange;
+}
+.complain4 .row .bo span{
+	font-size: 13px;
+}
+.complain4 .species{
+	text-align: left !important;
+}
+.complain4 .man img{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.complain4 .ob{
+	padding-top: 10%;
+}
+.complain4 .ob .ontext,.belowtext{
+	display: inline-block;
+}
+.complain4 .ob .on{
+	margin-bottom:40px;
+}
+.complain4 .ob i{
+	background: orange;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 21px 15px 15px 15px;
+    color: white;
+}
+.complain4 .ob p{
+	font-size: 8px;
+}
+.complain4 .ob .chung{
+	padding: 15px;
+	width: 60%;
+}
+.complain4 .cpfoot{
+	background: orange;
+	color: white;
+	padding: 40px;
+	margin-right:0;
+	margin-left: 0; 
+}
+
+
+
+
+
+
+#toTop {
+    padding: 5px 3px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}
+#toTop button{
+	border-radius: 50%;
+}

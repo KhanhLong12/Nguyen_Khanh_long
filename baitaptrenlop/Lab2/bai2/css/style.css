@@ -1,0 +1,202 @@
+/* CSS Document */
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    height: 174px;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+    clear: both;
+}
+
+#head-link{
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:10px;
+     clear: both;
+}
+/*Menu*/
+.menu ul{
+    list-style: none;
+    text-align: right;
+    margin: 3px 0px;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 20px;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+/*End menu*/
+/*search*/
+.search{
+    background-image: url(../img/bg-search.png);
+    width: 998px;
+    line-height: 83px;
+    margin-left: -10px;
+}
+.search #input{
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-image: url(../img/bg-input.png);
+    padding: 6px 10px;
+}
+.search button{
+    line-height: 31px;
+    margin-left: 20px;
+    background-color: #717070;
+    color: #ffffff;
+    border: none;
+}
+/*End search*/
+/*left*/
+#left{
+    height: 386px;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    background-image: url(../img/nganhnghe.png);
+    background-repeat: no-repeat;
+    float:left;
+    margin-bottom: 0px;
+}
+#left ul{
+   list-style-image: url(../img/li.png);
+   padding-left: 20px;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   
+    /*border-right: 1px solid #CCCCCC;*/
+}
+#left ul li{
+    margin-top: 5px;
+}
+#left ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+/*End Left*/
+/*Content*/
+    /*Home*/
+    #content{
+        width: 620px;
+        height: 387px;
+         float:left;
+         margin-left: 15px;
+         margin-right: 13px;
+         margin-bottom: 0px;
+    }
+    #content .h1{
+        line-height: 30px;
+        background-color: #f5f5f5;
+        border: 1px solid #cccccc;
+    }
+    #content .h1 span{
+        margin-left: 5px;
+    }
+    #content .h1 a{
+        margin-right: 5px;
+        text-decoration: none;
+        float: right;
+    }
+    #content .nd{
+        height: 356px;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        margin-top: -16px;
+        margin-bottom:0px;
+    }
+    #content .nd ul{
+        list-style: none;
+        margin-left: 0px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        
+    }
+    #content .nd ul li img{
+        float: left;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    #content .nd ul li{
+        margin: 11px -25px;
+    }
+    #content .nd ul li a{
+        text-decoration: none;
+        color: blue;
+    }
+    #content .nd ul li span{
+        font-size: 12px;
+    }
+    #content .nd .line{
+        border: 1px dotted #bbbbbb;
+        width: 100%;
+        margin-right: -15px;
+    }
+    /*End Home*/
+    /*Dăng Ký*/
+    .nd .bt{
+        color: red;
+    }
+    /*End Đăng Ký*/
+/*End content*/
+/*Right*/
+#right{
+     width: 184px;
+     float:right;
+}
+#right .ads{
+    margin-bottom: 20px;
+}
+#right .news .list{
+    width: 178px;
+    height: 242px;
+    margin-left: -2px;
+    margin-top: -20px;
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+#right .news ul{
+    padding-top: 5px;
+    width: 178px;
+    list-style: none;
+    margin-left: -40px;
+}
+#right .news ul li{
+    margin: 10px 0px;
+}
+#right .news .line{
+    border: 1px dotted #bbbbbb;
+    width: 100%;
+    margin-right: -15px;
+}
+#right .news ul li img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#right .news ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+/*End Right*/
+#footer{
+    height: 103px;
+    clear: both;
+}

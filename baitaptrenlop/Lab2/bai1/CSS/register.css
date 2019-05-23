@@ -1,0 +1,136 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.container{
+	margin: 0px auto;
+	width: 1200px;
+	height: 1200px;
+}
+.header{
+	height: 120px;
+}
+
+.main{
+
+	height: 550px;
+}
+
+.main #main-left{
+	width: 300px;
+	float: left;
+	padding: 10px 0px 0px 20px;
+	height: 550px;
+	border-bottom: 2px solid #FCC;
+}
+
+.main #main-right{
+	float: left;
+	width: 858px; 
+	height: 550px;
+	padding: 10px 0px 0px 20px;
+	border: 2px solid #FCC;
+	border-right: none;
+	border-top: none;
+
+}
+
+.footer{
+	background-color: #CFF
+}
+
+.footer #footer-left{
+	height: 30px;
+	width: 318px;
+	float: left;
+	padding: 20px 0px;
+	border: 2px solid #FCC;
+	border-top: none;
+}
+
+.footer #footer-left span {
+	margin-right: 10px;
+}
+
+.footer #footer-right{
+	float: left;
+	height: 30px;
+	width: 840px;
+	padding: 10px 0px 30px 20px;
+	border-bottom: 2px solid #FCC;
+
+}
+
+hr{
+	width: 250px;
+    margin: 8px auto;
+}
+
+table tr{
+	    height: 50px;
+}
+
+input[type="text"]{
+	height: 20px;
+}
+input[type="password"]{
+	height: 20px;
+}
+
+table{
+	width: 100%;
+}
+
+#options a{
+	text-decoration: none;
+	color: #333;
+}
+
+#options a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+#main-right h3{
+	font-size: 20px;
+	color: blue;
+}
+
+#main-right h3 span{
+	font-size: 20px;
+	color: red;
+}
+
+.appForm{
+	background-color:  #333;
+	padding: 10px 0px 0px 60px ; 
+	color: #fff;
+}
+
+.appForm h1{
+	font-weight: normal;
+	text-align: center;
+}
+
+.form-control{
+	width: 270px;
+}
+
+.radio-block{
+	height: 30px;
+}
+
+.checkbox-block{
+	width: 100%;
+}
+
+.block1{
+	margin-bottom: 20px;
+}
+
+ol{
+	    /* outline: none; */
+    margin: 30px 20px;
+}

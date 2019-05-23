@@ -1,0 +1,497 @@
+/*phần menu*/
+header{
+	background-color: #007DB8;
+	height: 66px;
+	width: 100%;
+}
+
+input[name="txtSearch"]{
+	outline: none;
+	background-color: none;
+	border: none;
+	padding: 0px 20px;
+	line-height: 30px;
+	width: 89%;
+}
+
+.logo{
+	line-height: 66px;
+}
+
+.navmenu{
+	border-top: 1px solid #01ffff;
+	height: 33px;
+    background-color: #007db8;
+    padding-left: 0px;
+}
+
+/*.navmenu .menu a{
+	color: #fff;
+	display: block;
+	padding: 0px 20px;
+}*/
+
+.text-input{
+	height: 30px;
+	margin: 18px;
+	background-color: #fff;
+}
+
+.btn-input{
+	background-color: #007DB8;
+	color: #fff;
+	border: none;	
+	height: 28px;
+	width: 10%;
+}
+
+.utilize{
+	line-height: 66px;
+	color: #fff;
+}
+
+.utilize label,
+.a-hidden{
+	display: none;
+}
+
+.menu a,
+.utilize a{
+	color: #fff;
+	padding: 0px 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.utilize a span{
+	margin-right: 5px;
+}
+
+
+.utilize label span{
+	margin-right: 5px;
+}
+
+.utilize a:hover{
+	text-decoration: none;
+	color: #00BCD4;
+}
+
+
+.content{
+	text-align: justify;
+	transition: 0.7s all;
+}
+
+.closeWrapper{
+	position: relative;
+    top: 0px;
+    right: 25%;
+}
+
+/*phần content*/
+.khung{
+	top: 15%;
+	left: 5%;
+	width: 30%;
+	text-align: left;
+	background: white;
+	height: 60%;
+	color: #333333;
+	padding: 10px;
+}
+.khung h5{
+	color: #007db8;
+}
+.khung button{
+	background: #4cae4c;
+	padding: 5px;
+	border: none;
+	color: white;
+	margin-bottom: 2px;
+}
+.khung button:hover{
+	background: #285709;
+}
+.prev{
+	z-index: 10;
+}
+.want{
+	width: 70%;
+	color: white;
+	background: green;
+	padding: 5px;
+}
+.sp{
+	padding: 100px 0;
+	text-align: center;
+}
+.row{
+	margin: auto 0;
+}
+.row img{
+	margin: 10px 0;
+	cursor: pointer;
+}
+h6{
+	color: #007db8;
+}
+.sp2{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.sp2 button{
+	background: #007db8;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+.sp2 button:hover{
+	background: #00447c;
+}
+.pm1{
+	padding-bottom: 10px;
+}
+.content{
+	position: absolute;
+	top: 7%;
+	width: 40%;
+	height: 75%;
+	right: 5%;
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+.content h5{
+	font-size: 15px;
+	color: #337ab7;
+}
+.content button{
+	background: #4cae4c;
+	padding: 5px;
+	border: none;
+	color: white;
+	margin-bottom: 2px;
+}
+.content button:hover{
+	background: #285709;
+}
+.content2{
+	bottom: 5%;
+	position: absolute;
+	background: white;
+	width: 100%;
+	height: 25%;
+	cursor: pointer;
+}
+.content2 h5{
+	font-size: 15px;
+	color: #337ab7;
+}
+.content3{
+	width: 95%;
+	opacity: 0.9;
+	background: white;
+	padding:15px;
+	position: absolute;
+	bottom: 3%;
+	box-sizing: border-box;
+}
+.content3 a{
+	color: #337ab7;
+}
+.right{
+	float: right;
+}
+.foot{
+	background: #007db8 !important;
+}
+.foot a{
+	color: white !important;
+	font-size: 12px;
+}
+.foot a:hover{
+	opacity: 0.7;
+}
+/*phần responsive*/
+@media(min-width: 880px) and (max-width:1046px){
+	.khung{
+		font-size: 12px;
+	}
+	.content h5{
+		font-size: 13px;
+	}
+	.content button{
+		font-size: 9px;
+	}
+	.content3 {
+		padding: 5px;
+	}
+	.content3 a{
+		font-size: 10px;
+	}
+	.content p{
+		font-size: 11px;
+		margin-bottom: 3px;
+	}
+}
+@media(min-width: 768px) and (max-width: 880px){
+	.khung{
+		font-size: 8px;
+	}
+	.content h5{
+		font-size: 10px;
+	}
+	.content button{
+		font-size: 8px;
+	}
+	.content3 {
+		padding: 5px;
+	}
+	.content3 a{
+		font-size: 10px;
+	}
+	.content p{
+		font-size: 8px;
+		margin-bottom: 3px;
+	}
+}
+@media(max-width: 576px){
+	.pm2 img{
+		width: 100%;
+	}
+	.content{
+		font-size: 10px;
+	}
+	.content h5{
+		font-size: 12px;
+	}
+}
+
+/*phần zayte*/
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+	input[name="txtSearch"]{
+		width: 79%;
+	}
+	.ultiize label{
+		display: inline;
+	}
+
+	.btn-input{
+		width: 19%;
+	}
+	
+	.utilize label {
+		display: none;
+	}
+
+	.a-hidden{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px){
+	input[name="txtSearch"]{
+		width: 77%;
+	}
+
+	.utilize{
+		float: right;
+	}
+
+	.a-hidden,
+	.navmenu,
+	.navmenu{
+		display: none;
+	}
+	.utilize label{
+		display: inline;
+	}
+
+	.btn-input{
+		width: 21%;
+	}
+
+	.a-hidden,
+	.utilize label,
+	.utilize a{
+		color: #fff;
+		padding: 0px 0px 0px 10px;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+	.menu a{
+		    display: block;
+		    height: 40px;
+		    line-height: 40px;
+	}
+	
+	.navmenu.vision{
+	    width: 25%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -25%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+    color: blue;
+}
+
+	.navmenu .menu a.vision{
+		height: 50px;
+		line-height: 50px;
+	    border-bottom: 1px solid #333;
+	    color: blue;
+	}
+
+	.menu.vision{
+		padding: 0px;
+	}
+}
+
+@media screen and (min-width: 395px) and (max-width: 768px) {
+	.utilize label{
+		display: inline;
+	}
+
+	.a-hidden{
+		display: block;
+	}
+
+	.menu a{
+		    display: block;
+		    height: 40px;
+		    line-height: 40px;
+	}
+	
+	.a-hidden,
+	.utilize label,
+	.utilize a{
+		color: #fff;
+		padding: 0px 2px;
+		font-size: 14px;
+		text-decoration: none;
+		line-height: 35px;
+    	float: left;
+    	text-align: center;
+	}
+
+	.utilize a span{
+		display: block;
+	    margin-top: 14px;
+	    margin-bottom: 0px;
+	}
+
+	.utilize label span{
+		display: block;
+	    margin-top: 14px;
+	    margin-bottom: 0px;
+	}
+
+	.utilize{
+		float: right;
+	}
+
+	.navmenu{
+		display: none;
+	}
+
+	.navmenu.vision{
+	    width: 25%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -25%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+    color: blue;
+}
+
+	.navmenu .menu a.vision{
+		height: 50px;
+		line-height: 50px;
+	    border-bottom: 1px solid #333;
+	    color: blue;
+	}
+
+	.menu.vision{
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 394px){
+	.utilize label{
+		display: inline;
+	}
+
+	.a-hidden{
+		display: block;
+	}
+	
+	.a-hidden,
+	.utilize label,
+	.utilize a{
+		color: #fff;
+		padding: 0px 2px;
+		font-size: 14px;
+		text-decoration: none;
+		line-height: 35px;
+    	float: left;
+    	text-align: center;
+	}
+
+	.utilize a span{
+		display: block;
+	    margin-top: 14px;
+	    margin-bottom: 0px;
+	}
+
+	.utilize label span{
+		display: block;
+	    margin-top: 14px;
+	    margin-bottom: 0px;
+	}
+
+	.utilize{
+		float: right;
+	}
+
+	.navmenu{
+		display: none;
+	}
+
+	.navmenu.vision{
+	    width: 25%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -25%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+    color: blue;
+}
+	.menu a{
+		display: block;
+	}
+	
+	.navmenu .menu a.vision{
+		height: 50px;
+		line-height: 50px;
+	    border-bottom: 1px solid #333;
+	    color: blue;
+	}
+
+	.menu.vision{
+		padding: 0px;
+	}
+}

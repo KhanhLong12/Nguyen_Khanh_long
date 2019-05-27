@@ -14,6 +14,10 @@
 }
 .menu ul li{
 	border-bottom: 1px solid transparent;
+	transition: 0.5s;
+}
+.menu ul li a{
+	transition: 0.3s;
 }
 .menu ul li a:hover{
 	color: orange !important;
@@ -37,11 +41,12 @@
 }
 .text1{
 	position: absolute;
-	top: 30%;
+	top: 27%;
 	background: transparent;
 	color: white;
 	text-align: center;
-	left: 30%;
+	box-sizing: border-box;
+	width: 100%;
 }
 .text1 h1{
 	font-weight: 400;
@@ -55,6 +60,7 @@
 .text1 span{
 	font-size: 15px;
 	cursor: pointer;
+	transition: 0.5s;
 }
 .text-light{
 	margin-top: 120px;
@@ -81,6 +87,7 @@ hr{
 }
 .complain1 img{
 	margin: 20px 0;
+	transition: 0.4s;
 }
 .complain1 img:hover{
 	transition: 0.5s;
@@ -144,6 +151,7 @@ hr{
 .complain3 ul li{
 	background: #cc33cc;
 	font-size: 12px;
+	transition: 0.5s;
 }
 .complain3 ul li:hover{
 	background: #660066;
@@ -217,6 +225,7 @@ img {
 	cursor: pointer;
 	text-align: center;
 	width: 100%;
+	transition: 0.5s;
 }
 .complain4 .row .cpbod{
 	border: 1px solid whitesmoke;
@@ -255,6 +264,9 @@ img {
 	float:left;
 	/*display: inline-block;*/
 }
+.ahihii h6{
+	transition: 0.5s;
+}
 .ahihii h6:hover{
 	cursor: pointer;
 	color: orange;
@@ -269,6 +281,7 @@ img {
     color: white;
     cursor: pointer;
     border: 1px solid transparent;
+    transition: 0.5s;
 }
 .complain4 .species i:hover{
 	background: white;
@@ -300,28 +313,24 @@ img {
 .complain5 .row{
 	text-align: center;
 }
-.complain5 img{
-    width: 10%;
-    position: absolute;
-    left: 42%;
-    cursor: pointer;
+.complain5 .row img{
+	width: 25%;
+	position: absolute;
+	top:0;
+	left: 39%;
 }
-.complain5 img:hover{
-    opacity: 0.5s;
-    box-shadow: 1px 1px 1px 3px black;
+.complain5 .cp5da{
+	background: whitesmoke;
+	padding:50px 30px;
+	margin-top: 60px;
 }
-.complain5 .anh p{ 
-    font-size: 12px;
-    margin-top:0;
-    margin-bottom: 0;
-    padding: 40px;
-    color: red;
-    background: whitesmoke;
+.complain5 .hv{
+	width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-top: 20px solid whitesmoke;
 }
-.complain5 .content-slider li{
-	text-align: center;
-	color: #FFF;
- }
+
 .complain6{
 	background: whitesmoke;
 }
@@ -362,6 +371,7 @@ img {
 }
 .complain7 .middle .fbo{
 	background: #1877F2;
+	transition: 0.6s;
 }
 .complain7 .middle .fbo:hover{
 	background: blue;
@@ -370,6 +380,7 @@ img {
 }
 .complain7 .middle .inta{
 	background: #ff9933;
+	transition: 0.6s;
 }
 .complain7 .middle .inta:hover{
 	background: #cc3300;
@@ -378,6 +389,19 @@ img {
 }
 .complain7 .middle .twi{
 	background: #3399cc;
+	transition: 0.6s;
+}
+.carousel-indicators{
+	position: relative;
+	padding-top: 50px;
+}
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+    border-radius: 50%;
+    background: green;
+    border-top: 0;
+    border-bottom: 0;
 }
 .complain7 .middle .twi:hover{
 	background: #003366;
@@ -446,6 +470,8 @@ img {
 	border: 1px solid orange;
 	color: white;
 	margin-top: 0;
+	transition: 0.5s;
+	width: 100%;
 }
 .complain8 .row .btc:hover{
 	background: green;
@@ -480,10 +506,11 @@ img {
 	padding: 20px;
 	border-radius: 50%;
 	cursor: pointer;
+	transition: 0.5s;
 }
 .footer .iconfoot i:hover{
 	border-color: #99cc00;
-	transition: 0.3s;
+	transition: 0.5s;
 	color: #99cc00;
 	padding: 10px;
 	font-size: 30px;
@@ -525,7 +552,6 @@ img {
 }
 @media(min-width: 768px) and (max-width: 992px){
 	.text1{
-		left: 22%;
 		top:27%;
 	}
 	.complain4 i{
@@ -536,9 +562,7 @@ img {
 	}
 }
 @media(min-width:576px) and (max-width: 768px){
-	.text1{
-		left: 23%;
-	}
+
 	.text1 h1{
 		font-size: 40px;
 	}
@@ -601,7 +625,7 @@ img {
 		border-bottom: 1px solid orange;
 	}
 	.text1{
-		left: 24%;
+		top: 35%;
 	}
 	.text1 h1{
 		font-size: 30px;

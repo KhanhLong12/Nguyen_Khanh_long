@@ -5,39 +5,35 @@
 .menu{
 	padding-left: 50px;
 	padding-right: 70px;
-	/*display: block;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 100000;
-	width: 100%;*/
+	z-index: 100;
+	width: 100%;
 }
-.menu>ul>li>a{
-	color: #666666;
-	border-bottom: 2px solid transparent;
-	cursor: pointer;
-	font-size: 15px;
+.menu ul li{
+	border-bottom: 1px solid transparent;
 }
-.menu>ul>li:last-child a{
-	color: black;
-	font-size: 12px;
-	border-bottom:none;
-	padding-top: 10px;
-}
-.menu>ul>li>a:hover{
-	border-bottom: 2px solid orange;
-	color:white;
-	opacity: 0.7;
-}
-.menu>ul>li:hover a{
+.menu ul li a:hover{
+	color: orange !important;
+	transition: 0.5s;
 	background: green;
+	box-shadow: 1px 1px 3px 3px black;
+}
+.menu ul li:hover{
+	border-bottom: 1px solid orange;
+	transition: 0.5s;
+}
+.pic{
+	padding-top: 3%;
 }
 .pic img{
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 560px;
+	height: 582px;
+	padding-top: 21px;
 }
 .text1{
 	position: absolute;
@@ -62,21 +58,22 @@
 }
 .text-light{
 	margin-top: 120px;
+	cursor: pointer;
 }
 .text1 span:hover{
 	color: #007bff;
+	transition: 0.5s;
 }
 .complain1{
 	padding: 80px 0;
 	text-align: center;
 }
+.complain1 .cen{
+	text-align: 
+}
 .complain1 p{
 	font-size: 12px;
 	color: #666666;
-}
-.son1{
-	padding-left: 150px;
-	padding-right: 150px;
 }
 hr{
 	margin: 16px auto;
@@ -85,13 +82,20 @@ hr{
 .complain1 img{
 	margin: 20px 0;
 }
-
+.complain1 img:hover{
+	transition: 0.5s;
+	box-shadow: 2px 2px 5px 5px black;
+}
 .complain2{
 	background: whitesmoke;
-	padding-bottom: 0;
+	padding-top:100px;
 }
+.complain2 .cen{
+	text-align: center;
+}
+
 .complain2>img{
-	width:  80%;
+	width:  90%;
 	margin-bottom:0px; 
 }
 .complain2 .row img{
@@ -100,9 +104,13 @@ hr{
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 200px;
+	height: 300px;
 }
-.complain2 .row{
+.complain2 .facts{
+	padding-right: 0;
+	padding-left: 0;
+}
+ .row{
 	margin-left: 0;
 	margin-right: 0; 
 }
@@ -112,7 +120,16 @@ hr{
 	right: 0px;
 	top: 40%;
 	color: orange;
-	font-size: 25px;
+	font-size: 30px;
+	text-align: center;
+}
+.complain2 .spp{
+	display: inline-block;
+}
+.complain2 .spp p {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
 }
 .complain3{
 	padding-bottom: 0px;
@@ -127,6 +144,10 @@ hr{
 .complain3 ul li{
 	background: #cc33cc;
 	font-size: 12px;
+}
+.complain3 ul li:hover{
+	background: #660066;
+	transition: 0.5s;
 }
 .complain3 .item-desc{
 	display: none;
@@ -187,19 +208,25 @@ img {
 	font-size: 12px;
 	color: #666666;
 }
-.complain4 .row .bo i{
+ 
+.complain4 .cp4icon i{
 	background: whitesmoke;
 	padding: 50px;
 	font-size: 35px;
 	color: #999999;
 	cursor: pointer;
-	border: 1px solid;
-	
+	text-align: center;
+	width: 100%;
 }
-.complain4 .row .bo i:hover{
-	color: orange;
+.complain4 .row .cpbod{
+	border: 1px solid whitesmoke;
 }
-.complain4 .row .bo span{
+.complain4 .cp4icon i:hover{
+	color: green;
+	transition: 0.5s;
+	box-shadow: 1px 1px 2px 2px green;
+}
+.complain4 .row span{
 	font-size: 13px;
 }
 .complain4 .species{
@@ -209,28 +236,52 @@ img {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.complain4 .ob{
+.complain4 .species .chungdad{
 	padding-top: 10%;
 }
-.complain4 .ob .ontext,.belowtext{
-	display: inline-block;
+.complain4 .species .ontext, .belowtext{
+	float: left;
+	/*display: inline-block;*/
 }
-.complain4 .ob .on{
+.complain4 .species .on{
 	margin-bottom:40px;
+	padding-right: 0;
 }
-.complain4 .ob i{
+.ahi{
+	width: 20%;
+}
+.ahihii{
+	width: 75%;
+	float:left;
+	/*display: inline-block;*/
+}
+.ahihii h6:hover{
+	cursor: pointer;
+	color: orange;
+	transition: 0.3s;
+}
+.complain4 .species i{
 	background: orange;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 50%;
-    padding: 21px 15px 15px 15px;
+    padding: 15px;
+    text-align: center;
     color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
 }
-.complain4 .ob p{
-	font-size: 8px;
+.complain4 .species i:hover{
+	background: white;
+	color: orange;
+	border: 1px solid orange;
+	transition: 0.5s;
+	box-shadow: 1px 1px 2px 2px orange;
 }
-.complain4 .ob .chung{
+=
+.complain4 .species .chung{
 	padding: 15px;
 	width: 60%;
+	text-align: center;
 }
 .complain4 .cpfoot{
 	background: orange;
@@ -239,10 +290,211 @@ img {
 	margin-right:0;
 	margin-left: 0; 
 }
+.complain4 .cpfoot div:first-child{
+	padding-top: 7px;
+}
+.complain5 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.complain5 .row{
+	text-align: center;
+}
+.complain5 img{
+    width: 10%;
+    position: absolute;
+    left: 42%;
+    cursor: pointer;
+}
+.complain5 img:hover{
+    opacity: 0.5s;
+    box-shadow: 1px 1px 1px 3px black;
+}
+.complain5 .anh p{ 
+    font-size: 12px;
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 40px;
+    color: red;
+    background: whitesmoke;
+}
+.complain5 .content-slider li{
+	text-align: center;
+	color: #FFF;
+ }
+.complain6{
+	background: whitesmoke;
+}
+.complain6 .cp6 hr{
+	text-align: left !important;
+	margin:45px 0;
+}
+.complain6 .card button{
+	padding-left: 0;
+}
+.complain6 .card button i{
+	padding-right: 30px;
+}
+.complain7{
+	padding: 100px 0 100px 0;
+}
+.complain7 .cen{
+	text-align: center;
+}
+.complain7 img{
+	width: 100%;
+}
+.complain7 .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.complain7 .middle i{
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	border-radius: 50%;
+}
+.complain7 .middle .fbo{
+	background: #1877F2;
+}
+.complain7 .middle .fbo:hover{
+	background: blue;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.complain7 .middle .inta{
+	background: #ff9933;
+}
+.complain7 .middle .inta:hover{
+	background: #cc3300;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.complain7 .middle .twi{
+	background: #3399cc;
+}
+.complain7 .middle .twi:hover{
+	background: #003366;
+	transition: 0.6s;
+	font-size: 20px;
+}
+.honve:hover img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.honve:hover .middle {
+  opacity: 1;
+}
 
-
-
-
+.complain7 .bod{
+	text-align: center;
+	border: 1px solid whitesmoke;
+}
+.complain8{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.complain8 h6{
+	margin-top: 20px;
+}
+.complain8 .headrow .cen{
+	text-align: center;
+}
+.complain8 .row{
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.complain8 .row input{
+	width: 80%;
+	padding: 10px;
+	margin-top:20px;
+	font-size: 15px; 
+	background: whitesmoke;
+}
+.complain8 .row .checkform .poscheck{
+	position: absolute;
+	top: 11%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .checkform .poscheck1{
+	position: absolute;
+	top: 36%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .checkform .poscheck2{
+	position: absolute;
+	top: 61%;
+	left: 38%;
+	color: red;
+}
+.complain8 .row .area{
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	color: red;
+}
+.complain8 .row .btc{
+	background: orange;
+	border: 1px solid orange;
+	color: white;
+	margin-top: 0;
+}
+.complain8 .row .btc:hover{
+	background: green;
+	transition: 0.5S;
+}
+.complain8 .row textarea{
+	padding-left: 10px;
+	margin-top: 20px;
+	background: whitesmoke;
+}
+.logodad .row{
+	background: green;
+}
+.logodad .row .cen{
+	padding-left: 0;
+	padding-right: 0;
+}
+.logodad .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.footer{
+	padding: 100px 0 100px 0;
+	background: black;
+}
+.footer .cen{
+	text-align: center;
+}
+.footer .iconfoot i{
+	border: 2px solid white;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.footer .iconfoot i:hover{
+	border-color: #99cc00;
+	transition: 0.3s;
+	color: #99cc00;
+	padding: 10px;
+	font-size: 30px;
+}
+.footer img {
+	margin: 30px 0 20px 0;
+	width: 30%;
+}
+.footer p{
+	color: white;
+}
 
 
 #toTop {
@@ -256,4 +508,158 @@ img {
 }
 #toTop button{
 	border-radius: 50%;
+}
+@media(min-width:578px) and (max-width: 991px){
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+}
+@media(min-width: 768px) and (max-width: 992px){
+	.text1{
+		left: 22%;
+		top:27%;
+	}
+	.complain4 i{
+		width: 100%;
+	}
+	.complain8 .row input{
+		width: 100%;
+	}
+}
+@media(min-width:576px) and (max-width: 768px){
+	.text1{
+		left: 23%;
+	}
+	.text1 h1{
+		font-size: 40px;
+	}
+	.text1 .btn{
+		font-size: 15px;
+	}
+	.text1 span{
+		font-size: 13px;
+	}
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+	.complain3 ul li{
+		font-size: 15px;
+		padding: 5px;
+	}
+	.complain4 i{
+		width: 100%;
+	}
+	.complain4 .cp4{
+		width: 100%;
+	}
+	.complain4 .row .ic{
+		padding-bottom: 30px;
+	}
+	.complain8 .row .btcrow{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .checkform .nho{
+		font-size: 10px;
+	}
+
+}
+@media(max-width:576px){
+
+	.menu #navbarNav ul li:first-child{
+		border-top: 1px solid black;
+	}
+	.menu #navbarNav ul li{
+		border-bottom: 1px solid transparent;
+	}
+	.menu #navbarNav ul li a:hover{
+		color: orange;
+	}
+	.menu #navbarNav ul li:hover{
+		border-bottom: 1px solid orange;
+	}
+	.text1{
+		left: 24%;
+	}
+	.text1 h1{
+		font-size: 30px;
+	}
+	.text1 .btn{
+		font-size: 13px;
+	}
+	.text1 span{
+		font-size: 10px;
+	}
+	.text1 .bot{
+		margin-top:90px;
+	}
+	.complain2 .couterson{
+		top: 0;
+	}
+	.complain3 ul li{
+		font-size: 15px;
+		padding: 15px;
+	}
+	h4{
+		font-size: 20px !important;
+	}
+	p{
+		font-size: 10px !important;
+	}
+	.complain4 .species i{
+		width: 70%;
+		padding: 10px;
+		font-size: 25px;
+	}
+	.complain4 i{
+		width: 100%;
+	}
+	.complain4 .row .ic{
+		padding-bottom: 30px;
+	}
+	.complain8 .row input{
+		width: 100%;
+	}
+	.complain8 .row .btcrow{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain8 .row .checkform .nho{
+		left: 49%;
+	}
+	.complain8 .row .checkform .poscheck{
+		top: 15%;
+	}
+	.complain8 .row .checkform .poscheck1{
+		top: 50%;
+	}
+	.complain8 .row .checkform .poscheck2{
+		top: 83%;
+	}
 }

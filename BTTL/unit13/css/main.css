@@ -1,7 +1,30 @@
-.box{
+/*.box{
 	height: 200px;
 	width: 100%;
 }
 .bg-diff{
 	background: orange;
-}
+}*/
+img{
+            width: 15%;
+            position: absolute;
+            left: 42%;
+            cursor: pointer;
+        }
+        img:hover{
+            opacity: 0.5s;
+            box-shadow: 1px 1px 1px 3px black;
+        }
+        .anh p{ 
+            font-size: 12px;
+            margin-top:0;
+            margin-bottom: 0;
+            padding: 40px;
+            color: red;
+            background: whitesmoke;
+        }
+        .content-slider li{
+		    text-align: center;
+		    color: #FFF;
+        }
+   

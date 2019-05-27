@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>lightSlider Demo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="../dist/css/lightslider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/css/bootstrap.min.css">
+    <style>
+        img{
+            width: 15%;
+            position: absolute;
+            left: 42%;
+            cursor: pointer;
+        }
+        img:hover{
+            opacity: 0.5s;
+            box-shadow: 1px 1px 1px 3px black;
+        }
+        .anh p{ 
+            font-size: 12px;
+            margin-top:0;
+            margin-bottom: 0;
+            padding: 40px;
+            color: red;
+            background: whitesmoke;
+        }
+        .content-slider li{
+		    text-align: center;
+		    color: #FFF;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../dist/js/lightslider.min.js"></script> 
+    <script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+		});
+    </script>
+</head>
+<body>
+
+       <div class="item">
+            <ul id="content-slider" class="content-slider">
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-9.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-11.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-6.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-9.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-11.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="img/wow-6.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+</body>
+
+
+
+

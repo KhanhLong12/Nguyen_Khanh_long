@@ -4,7 +4,7 @@
 //     })
 // })
 
-// new WOW().init();
+new WOW().init();
 
 $(document).ready(function() {
 		$('.counter').counterUp({

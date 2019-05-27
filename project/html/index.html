@@ -2,79 +2,90 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Khánh Long</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/lightslider.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
 <!-- menu -->
-	<nav class="navbar navbar-light bg-light menu">
-		<a class="navbar-brand" href="#">
-	    	<img src="../images/logo.png" width="204" height="30" alt="Không hiển thị được ảnh">
-		</a>
-		<ul class="nav justify-content-end">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
-			</li>
-			<li class="nav-item">
-			    <a class="nav-link" href="#">Folio</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Features</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Testimonails</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Why Us</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-			</li>
-		</ul>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+		  <a class="navbar-brand" href="#"><img src="../images/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse mr-auto " id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+			    <li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+				    <a class="nav-link" href="#folio">Folio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#features">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#testimonails">Testimonails</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#why">Why Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+				</li>
+		    </ul>
+		  </div>
 	</nav>
 <!--  -->
-	<div class="pic">
+	<div class="row pic">
 		<img src="../images/1 (1).jpg">
 		<div class="jumbotron text1">
-			<h1 class="display-4">DESIGN & BUILD</h1>
+			<h1 class="display-4">DESIGN &amp; BUILD</h1>
 			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 			<span>OUR FOLIO &nbsp;<i class="far fa-arrow-alt-circle-right"></i></span>
 			<br>
-			<div class="spinner-border text-light" role="status">
-  				<span class="sr-only">Loading...</span>
+			<div class="spinner-border text-light bot" role="status">
+  				<span class="sr-only"></span>
+  				<i class="fas fa-chevron-down"></i>
 			</div>
 		</div>
 	</div>
 <!-- complain1 -->
-	<div class="complain1">
-		<div class="son1">
-			<h4>CONSTRUCTION</h4>
-			<hr width="40" color="orange">
-			<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+	<div id="about" class="complain1">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 cen">
+				<h4>CONSTRUCTION</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="wow bounceInLeft col-md-4">
 					<img class="img-fluid" src="../images/1 (2).jpg">
 					<div class="text2">
 						<h6>The self-study lessons</h6>
 						<p>in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). The videos and interactive exercises .</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="wow bounceInDown col-md-4">
 					<img class="img-fluid" src="../images/2 (2).jpg">
 					<h6>free online English test</h6>
 					<p>to find out which level to choose. Select your level, from beginner (CEFR level A1) to advanced (CEFR level C1), and improve your speaking skills at your own speed.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="wow bounceInRight col-md-4">
 					<img class="img-fluid" src="../images/3 (2).jpg">
 					<h6>Practise your English</h6>
 					<p>All learners, whatever their level, have questions and doubts about grammar as they're learning English and this guide helps to explain the verb tenses and grammar rules.</p>
@@ -83,33 +94,48 @@
 		</div>
 	</div>
 <!-- conplain2 -->
-	<div class="complain2 complain1">
-		<div class="son1">
-			<h4>ABOUT US</h4>
-			<hr width="40" color="orange">
-			<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+	<div id="folio" class="complain2">
+		<div class="wow flipInY row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 cen">
+				<h4>ABOUT US</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 		<img src="../images/about.jpg">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-12 facts">
 				<img class="img-fluid" src="../images/bg-section-facts.jpg">
-				<div class="couterson">
-					<span class="counter" style="margin-left:; ">1024</span>
-					<span class="counter" style="margin-left:20%; ">1750</span><span>+</span>
-					<span class="counter" style="margin-left:20%; ">984</span>
-					<span class="counter" style="margin-left:20%; ">96</span>
+				<div class="wow rollIn couterson row">
+					<div class="col-sm-3 col-md-3 spp">
+						<span class="counter" style="margin-left:; ">1024</span>
+						<p>PROJECT COMPLETED</p>
+					</div>
+					<div class="col-sm-3 col-md-3 spp">
+						<span class="counter" style="margin-left:; ">1750</span><span>+</span>
+						<p>HAPPY CLIENTS</p>
+					</div>
+					<div class="col-sm-3 col-md-3 spp">
+						<span class="counter" style="margin-left:; ">984</span>
+						<p>WORKERS EMPLOYED</p>
+					</div>
+					<div class="col-sm-3 col-md-3 spp">
+						<span class="counter" style="margin-left:; ">96</span>
+						<p>AWARDS WON</p>
+					</div>
 					<form method="get" accept-charset="utf-8" id="formDemo">
 				</div>
 			</div>
 		</div>
 	</div>
 <!-- complain3 -->
-	<div class="complain3 complain1">
+	<div id="features" class="complain3 complain1">
 		<h4>RECENT WORKS</h4>
 		<hr width="40" color="orange">
 		<div class="row">
-	       
-		    <ul class="simplefilter">
+		    <ul class="wow fadeInDownBig simplefilter">
 		        <li class="fltr-controls active" data-filter="all">All</li>
 		        <li class="fltr-controls" data-filter="1">Gatehouse</li>
 		        <li class="fltr-controls" data-filter="2">Sky Garden</li>
@@ -123,35 +149,35 @@
 		        
 			    <div class="filtr-container">
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="Busy streets">
-					    <img class="img-responsive imgson" data-id="1" src="../images/1 (3).jpg" alt="sample image">
+					    <img class="wow rotateInDownLeft img-responsive imgson" data-id="1" src="../images/1 (3).jpg" alt="sample image">
 					    <span id="item1" class="item-desc">Garden Villa</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 5" data-sort="Luminous night">
-				        <img class="img-responsive imgson" data-id="2" src="../images/2 (3).jpg" alt="sample image">
+				        <img class="wow rotateInDownLeft img-responsive imgson" data-id="2" src="../images/2 (3).jpg" alt="sample image">
 				        <span id="item2" class="item-desc">Pink House</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 4" data-sort="City wonders">
-				        <img class="img-responsive imgson" data-id="3" src="../images/3 (3).jpg" alt="sample image">
+				        <img class="wow rotateInDownRight img-responsive imgson" data-id="3" src="../images/3 (3).jpg" alt="sample image">
 				        <span id="item3" class="item-desc">Townhouse</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="In production">
-				        <img class="img-responsive imgson" data-id="4" src="../images/4 (1).jpg" alt="sample image">
+				        <img class="wow rotateInDownRight img-responsive imgson" data-id="4" src="../images/4 (1).jpg" alt="sample image">
 				        <span id="item4" class="item-desc">Forest House</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 4" data-sort="Industrial site">
-				        <img class="img-responsive imgson" data-id="5" src="../images/5.jpg" alt="sample image">
+				        <img class="wow rotateInDownLeft img-responsive imgson" data-id="5" src="../images/5.jpg" alt="sample image">
 				        <span id="item5" class="item-desc">Pool House</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
-				        <img class="img-responsive imgson" data-id="6" src="../images/6.jpg" alt="sample image">
+				        <img class="wow rotateInDownLeft img-responsive imgson" data-id="6" src="../images/6.jpg" alt="sample image">
 				        <span id="item6" class="item-desc">Dream House</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="City lights">
-				        <img class="img-responsive imgson" data-id="7" src="../images/7.jpg" alt="sample image">
+				        <img class="wow rotateInDownRight img-responsive imgson" data-id="7" src="../images/7.jpg" alt="sample image">
 				        <span id="item7" class="item-desc">Red Carpet</span>
 				    </div>
 				    <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Dreamhouse">
-				        <img class="img-responsive imgson" data-id="8" src="../images/8.jpg" alt="sample image">
+				        <img class="wow rotateInDownRight img-responsive imgson" data-id="8" src="../images/8.jpg" alt="sample image">
 				        <span id="item8" class="item-desc">Garden House</span>
 				    </div>
 			    </div>
@@ -159,91 +185,99 @@
 		</div>
 	</div>
 <!-- complain 4 -->
-	<div class="complain4">
-		<div class="son1">
-			<h4>WHAT WE OFFER</h4>
-			<hr width="40" color="orange">
-			<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+	<div id="testimonails" class="complain4">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h4>WHAT WE OFFER</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="fas fa-hard-hat"></i>
+			<div class="row cp4icon">
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+					<i class="wow flip fas fa-hard-hat"></i>
+					<div class="cpbod">
 						<span>CONSTRUCTION</span>
 					</div>
 				</div>
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="fas fa-paint-roller"></i>
-						<span>RENOVANTION</span>
-					</div>
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+						<i class="wow flip fas fa-paint-roller"></i>
+						<div class="cpbod">
+							<span>RENOVANTION</span>
+						</div>
 				</div>
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="fas fa-drafting-compass"></i>
-						<span>CONSULTING</span>
-					</div>
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+						<i class="wow flip fas fa-drafting-compass"></i>
+						<div class="cpbod">
+							<span>CONSULTING</span>
+						</div>
 				</div>
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="fas fa-tools"></i>
-						<span>CONSTRUCT</span>
-					</div>
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+						<i class="wow flip fas fa-tools"></i>
+						<div class="cpbod">
+							<span>CONSTRUCT</span>
+						</div>	
 				</div>
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="fas fa-pencil-ruler"></i>
-						<span>ARCHITECTURE</span>
-					</div>
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+						<i class="wow flip fas fa-pencil-ruler"></i>
+						<div class="cpbod">
+							<span>ARCHITECTURE</span>
+						</div>
 				</div>
-				<div class="col-md-2">
-					<div class="bo">
-						<i class="far fa-lightbulb"></i>
-						<span>ELECTRICAL</span>
-					</div>
+				<div class="col-sm-4 col-md-2 col-lg-2 col-xs-4 col-6 ic">
+						<i class="wow flip far fa-lightbulb"></i>
+						<div class="cpbod">
+							<span>ELECTRICAL</span>
+						</div>
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid species">
 			<div class="row">
-				<div class="col-md-4 ob">
-					<div class="on">
-						<div class="ontext">
-							<i class="fas fa-screwdriver"></i>
+				<div class="col-md-8 chungdad">
+					<div class="row">
+						<div class="on col-md-6 col-sm-6">
+							<div class="ontext ahi">
+								<i class="fas fa-screwdriver"></i>
+							</div>
+							<div class="ahihii">
+								<h6>Lorem ipsum dolor.</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, placeat, laborum. Ab, porro, excepturi. Consequuntur, animi officia earum sint corporis!</p>
+							</div>
+							<div style="clear:both"></div>
 						</div>
-						<div class="ontext chung">
-							<h6>Looking for Pliers</h6>
-							<p>Hereaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssy</p>
+						<div class="on col-md-6 col-sm-6">
+							<div class="ontext ahi">
+								<i class="fas fa-paint-roller"></i>
+							</div>
+							<div class="ahihii">
+								<h6>Lorem ipsum dolor.</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, placeat, laborum. Ab, porro, excepturi. Consequuntur, animi officia earum sint corporis!</p>
+							</div>
+							<div style="clear:both"></div>
 						</div>
-					</div>
-					<div class="below">
-						<div class="belowtext">
-							<i class="fas fa-shower"></i>
+						<div class="on col-md-6 col-sm-6">
+							<div class="ontext ahi">
+								<i class="fas fa-shower"></i>
+							</div>
+							<div class="ahihii">
+								<h6>Lorem ipsum dolor.</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, placeat, laborum. Ab, porro, excepturi. Consequuntur, animi officia earum sint corporis!</p>
+							</div>
+							<div style="clear:both"></div>
 						</div>
-						<div class="belowtext chung">
-							<h6>abc</h6>
-							<p>Hereaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssy</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ob">
-					<div class="on">
-						<div class="ontext">
-							<i class="fas fa-paint-roller"></i>
-						</div>
-						<div class="ontext chung">
-							<h6>abc</h6>
-							<p>Hereaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssy</p>
-						</div>
-					</div>
-					<div class="below">
-						<div class="belowtext">
-							<i class="far fa-newspaper"></i>
-						</div>
-						<div class="belowtext chung">
-							<h6>Newspaper</h6>
-							<p>Here aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssy</p>
+						<div class="on  col-md-6 col-sm-6">
+							<div class="ontext ahi">
+								<i class="fas fa-chess-board"></i>
+							</div>
+							<div class="ahihii">
+								<h6>Lorem ipsum dolor.</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, placeat, laborum. Ab, porro, excepturi. Consequuntur, animi officia earum sint corporis!</p>
+							</div>
+							<div style="clear:both"></div>
 						</div>
 					</div>
 				</div>
@@ -254,37 +288,371 @@
 		</div>
 		<div>
 			<div class="row cpfoot">
-				<div class="col-md-4">Contractors & Construction Managers Since 1981</div>
+				<div class="col-md-4">Contractors &amp; Construction Managers Since 1981</div>
 				<div class="col-md-4"></div>
 				<div class="col-md-4"><button type="button" class="btn btn-success">GET A QUOTE</button></div>
 			</div>
 		</div>
 	</div>
 <!-- complain 5 -->
-	<div class="complain5 complain1">
-		<div class="son1">
-			<h4>WHAT OTHER SAY ABOUT US</h4>
-			<hr width="40" color="orange">
-			<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+	<div id="why" class="complain5">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h4>WHAT OTHER SAY ABOUT US</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					
+		<div class="item">
+            <ul id="content-slider" class="content-slider">
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-9.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-11.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-6.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-9.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-11.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="anh">
+                        <div class="row">
+                            <div  class="col-md-12"><img src="../images/wow-6.gif">
+                            <p style="margin-top: 40px">Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+                            <h6>R.Lukaku</h6>
+                            <span>pronunciation</span></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+	</div>
+<!-- complain 6 -->
+	<div class="complain6">
+		<div class="row cp6">
+			<div class="col-sm-12 col-md-6">
+				<img src="../images/group.jpg">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>WHY CHOOSE US?</h2>
+				<hr width="40" color="orange">
+				<div class="accordion" id="accordionExample">
+				  <div class="card">
+				    <div class="card-header" id="headingOne">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				           <i class="fas fa-chevron-down"></i>Collapsible Group Item
+				        </button>
+				      </h2>
+				    </div>
+
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingTwo">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				         <i class="fas fa-chevron-down"></i> Collapsible Group Item
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingThree">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				         <i class="fas fa-chevron-down"></i> Collapsible Group Item
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingFour">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+				          <i class="fas fa-chevron-down"></i>Collapsible Group Item
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+				      </div>
+				    </div>
+				  </div>
 				</div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
 			</div>
 		</div>
 	</div>
-
+<!-- complain7 -->
+	<div class="complain7">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 cen">
+				<h4>OUR TEAM</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 honve">
+					<img src="../images/1.jpg">
+					<div class="middle">
+						<i class="fab fa-facebook-f fbo"></i>
+						<i class="fab fa-instagram inta"></i>
+						<i class="fab fa-twitter twi"></i>
+					</div>
+					<div class="bod">
+						<h6>Richard Wagner</h6>
+						<p>Civil Engineer</p>
+					</div>
+				</div>
+				<div class="col-sm-3 honve">
+					<img src="../images/2.jpg">
+					<div class="middle">
+						<i class="fab fa-facebook-f fbo"></i>
+						<i class="fab fa-instagram inta"></i>
+						<i class="fab fa-twitter twi"></i>
+					</div>
+					<div class="bod">
+						<h6>Sarah Spence</h6>
+						<p>Construction Assistant</p>
+					</div>
+				</div>
+				<div class="col-sm-3 honve">
+					<img src="../images/3.jpg">
+						<div class="middle">
+						    <i class="fab fa-facebook-f fbo"></i>
+						    <i class="fab fa-instagram inta"></i>
+						    <i class="fab fa-twitter twi"></i>
+						 </div>
+					<div class="bod">
+						<h6>John Halpern</h6>
+						<p>Construction Manager</p>
+					</div>
+				</div>
+				<div class="col-sm-3 honve">
+					<img src="../images/4.jpg">
+					<div class="middle">
+						<i class="fab fa-facebook-f fbo"></i>
+						<i class="fab fa-instagram inta"></i>
+						<i class="fab fa-twitter twi"></i>
+					</div>
+					<div class="bod">
+						<h6>Tommy Atkins</h6>
+						<p>Electriccians</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- bản đồ -->
+	<div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14900.218514571554!2d105.8466552!3d20.9904472!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1558768696015!5m2!1svi!2s" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+<!-- complain8 -->
+	<div id="contact" class="complain8">
+		<div class="row headrow">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 cen">
+				<h4>CONTACT US</h4>
+				<hr width="40" color="orange">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations. As you listen and speak aloud, you’ll also improve your pronunciation.</p>
+			<div class="col-md-2"></div>
+		</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<h6>Address</h6>
+					<span>68 Havemeyer St, Brooklyn, NY 11211<br>
+						United States
+					</span>
+					<h6>Phone number</h6>
+					<span>+1 718-955-2838 or +1 718-955-3290</span>
+					<h6>E-mail address</h6>
+					<span>Contact@construction.com</span>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<form>
+						<div class="checkform">
+							<input type="text" class="name1" name="name" placeholder="Name*">
+							<div class="nho poscheck"></div>
+						</div>
+						<div class="checkform">
+							<input type="email" class="email1" name="email" placeholder="Email*">
+							<div class="nho poscheck1"></div>
+						</div>
+						<div class="checkform">
+							<input type="text" class="sub" name="subject" placeholder="subject*">
+							<div class="nho poscheck2"></div>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-4">
+					<textarea name="textarea" rows="10" cols="41%" placeholder="message*" style="width: 100%"></textarea>
+					<div class="area"></div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12">
+					<div class="row btcrow">
+						<div class="col-md-3"></div>
+						<div class= "col-12 col-sm-12 col-md-6 cen">
+							<input type="button" name="button" class="btc" value="SEND MESSAGE">
+						</div>
+						<div class=" col-md-3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="logodad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="row">
+							<div class="col-1 col-sm-1 col-md-1">
+								<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </a>
+							</div>
+							<div class="col-10 col-sm-10 col-md-10 cen">
+								<div class="carousel-inner">
+								    <div class="carousel-item active">
+								    	<div class="row">
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo6.jpg" alt="First slide">
+								    		</div>
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo7.jpg" alt="First slide">
+								    		</div>
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo5.jpg" alt="First slide">
+								    		</div>
+								    		<div class=" col-3">
+								    			<img class="d-block w-100" src="../images/logo4.jpg" alt="First slide">
+								    		</div>
+								    	</div>
+								    </div>
+								    <div class="carousel-item">
+								      <div class="row">
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo6.jpg" alt="First slide">
+								    		</div>
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo7.jpg" alt="First slide">
+								    		</div>
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo5.jpg" alt="First slide">
+								    		</div>
+								    		<div class="col-3">
+								    			<img class="d-block w-100" src="../images/logo4.jpg" alt="First slide">
+								    		</div>
+								    	</div>
+								    </div>
+								  </div>
+							</div>
+							<div class="col-1 col-sm-1 col-md-1">
+								<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 cen">
+				<div class="container-fluid">
+					<div class="row iconfoot">
+						<div class="col-6 col-sm-4 col-md-2"><i class="fab fa-twitter"></i></div>
+						<div class="col-6 col-sm-4 col-md-2"><i class="fab fa-google-plus-g"></i></div>
+						<div class="col-6 col-sm-4 col-md-2"><i class="far fa-futbol"></i></div>
+						<div class="col-6 col-sm-4 col-md-2"><i class="fab fa-instagram"></i></div>
+						<div class="col-6 col-sm-4 col-md-2"><i class="fas fa-globe-africa"></i></div>
+						<div class="col-6 col-sm-4 col-md-2"><i class="fas fa-plane"></i></div>
+					</div>
+				</div>
+				<img src="../images/logo-light@2x.png">
+				<p>Here you can find activities to practise your speaking skills. You can watch and listen to videos that show how English is used in different types of conversations.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
 
 
 	<div id='toTop'><button type="button" class="btn btn-info"><i class="fas fa-arrow-circle-up"></i></button></div>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/wow.min.js"></script>
 	<script src="../js/jquery.counterup.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../js/lightslider.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/jquery.filterizr.min.js"></script>

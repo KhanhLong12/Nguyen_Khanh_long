@@ -18,16 +18,13 @@
 }
 .text{
 	position: absolute;
-	top: 10px;
+	top: 15px;
 	display: none;
 }
 #container .box img{
 	max-width: 100%;
 }
-#container .box img:hover{
-	opacity: 0.2;
-	cursor: pointer;
-}
+
 .box h2{
 	margin: 5px 0;
 }
@@ -48,7 +45,11 @@
 #container .box:hover .text{
 	display: block ;
 	cursor: pointer;
-	
+	background: orange;
+	opacity: 0.5;
+}
+#container .box:hover img{
+	opacity: 0.5;
 }
 
 

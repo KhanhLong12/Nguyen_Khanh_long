@@ -1,10 +1,10 @@
-/*div.div1{
+div.div1{
 	width: 200px;
 	height: 100px;
 	background-color: red;
 	display: none;
 }
-.rotate{
+.rotateIn{
 	height: 800px;
 	background-color: green;
 	width: 100%;
@@ -13,10 +13,10 @@
 	height: 500px;
 	background-color: red;
 	width: 100%;
-}*/
-div{
+}
+/*div{
 	height: 100px;
 	width: 100px;
 	display: none;
 	background-color: red;
-}
+}*/

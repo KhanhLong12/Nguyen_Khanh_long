@@ -9,7 +9,7 @@ $('.button').on('click', function(){
 })
 $('.minus').on('click', function(){
 	var id = $(this).data('id');
-	$('#content'+id).css('display', 'none');
+	$('#content'+id).hide(500);
 	$('#scroll'+id).css('display', 'block');
 	$('#minus'+id).css('display', 'none');
 })

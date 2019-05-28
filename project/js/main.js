@@ -1,10 +1,12 @@
 
+
 $(document).ready(function() {
 		$('.counter').counterUp({
 			delay: 10,
-			time: 10000
+			time: 15000
 		});
 });
+
 
 $(function() {
     var f = $('.filtr-container').filterizr({ controlsSelector: '.fltr-controls' });

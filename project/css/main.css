@@ -12,22 +12,29 @@
 	z-index: 100;
 	width: 100%;
 }
+.menu button .nhan{
+	font-size: 33px;
+	display: none;
+}
 .menu ul li{
 	border-bottom: 1px solid transparent;
 	transition: 0.5s;
 }
 .menu ul li a{
 	transition: 0.3s;
+	color: rebeccapurple !important;
+}
+.menu ul li:first-child a{
+	color: red !important;
+}
+.menu ul li:last-child a{
+	color: orange !important;
 }
 .menu ul li a:hover{
-	color: orange !important;
+	color: white !important;
 	transition: 0.5s;
 	background: green;
 	box-shadow: 1px 1px 3px 3px black;
-}1
-.menu ul li:hover{
-	border-bottom: 1px solid orange;
-	transition: 0.5s;
 }
 .pic{
 	padding-top: 3%;
@@ -110,7 +117,7 @@ hr{
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .complain2 .facts{
 	padding-right: 0;
@@ -144,6 +151,9 @@ hr{
 	margin-left: 0;
 	margin-right: 0;
 }
+.complain3 .cp3r{
+	margin: 30px;
+}
 .complain3 .row ul{
 	margin: 0 auto;
 }
@@ -159,8 +169,56 @@ hr{
 .complain3 .item-desc{
 	display: none;
 }
+.complain3 .container1{
+	padding: 0;
+}
 .complain3 img{
 	cursor: pointer;
+}
+.complain3 .imgson {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.complain3 .overlay20 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+.complain3 .overlay20 p{
+	color: yellow;
+}
+.complain3 .overlay19{
+	background-color: #008CBA;
+}
+.container1:hover .overlay20 {
+  opacity: .9;
+}
+
+.complain3 .text20 {
+	cursor: pointer;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.complain3 .text20 span:hover{
+	text-decoration: underline;
 }
 
 /*copanh*/
@@ -211,7 +269,6 @@ img {
 	padding: 80px 0 0 0;
 	text-align: center;
 }
- 
 .complain4 .cp4icon i{
 	background: whitesmoke;
 	padding: 50px;
@@ -294,7 +351,7 @@ img {
 .complain4 .cpfoot{
 	background: orange;
 	color: white;
-	padding: 40px;
+	padding: 50px;
 	margin-right:0;
 	margin-left: 0; 
 }
@@ -339,6 +396,12 @@ img {
 }
 .complain6 .card button i{
 	padding-right: 30px;
+}
+.complain6 .card-header{
+	background: lightslategrey;
+}
+.complain6 .card-header button{
+	color: white;
 }
 .complain7{
 	padding: 100px 0 100px 0;
@@ -467,13 +530,15 @@ img {
 	color: white;
 	margin-top: 0;
 	transition: 0.5s;
-	width: 45%;
+	width: 42%;
 }
 .complain8 .row .btcrow .cen{
 	text-align: center;
+	padding-left: 52px;
+	padding-right: 125px;
 }
 .complain8 .row .btc:hover{
-	background: green;
+	background: blue;
 	transition: 0.5S;
 }
 .complain8 .row textarea{
@@ -487,6 +552,11 @@ img {
 .logodad .row .cen{
 	padding-left: 0;
 	padding-right: 0;
+	cursor: pointer;
+}
+.logodad .row .cen img:hover{
+	transition: 0.5s;
+	opacity: 0.7;
 }
 .logodad .container-fluid{
 	padding-left: 0px;
@@ -554,10 +624,22 @@ img {
 }
 @media(min-width: 768px) and (max-width: 992px){
 	.text1{
-		top:27%;
+		top:20%;
 	}
-	.complain4 i{
+	/*.complain4 i{
 		width: 100%;
+	}*/
+	.complain4 .chungdad .row>div{
+		padding-left: 0;
+	}
+	.complain4 .species .chungdad .ahihii{
+		margin-left: 5px;
+	}
+	.complain4 .species .man img{
+		height: 100%;
+	}
+	.complain4 .cp4icon i{
+	    padding: 50px 30px;
 	}
 	.complain5 .row img{
 		width: 34%;
@@ -568,8 +650,16 @@ img {
 		padding-right: 10px;
 		padding-left: 10px;
 	}
+
 	.complain5 .row .cp5da p{
 		font-size: 14px;
+	}
+	.complain7 .middle{
+		width: 100%;
+		top: 57%;
+	}
+	.complain7 .bod p{
+		font-size: 13px;
 	}
 	.complain8 .row input{
 		width: 100%;
@@ -580,7 +670,13 @@ img {
 	.complain8 .row .btc{
 		width: 100% !important;
 	}
-
+	.complain8 .row .btcrow{
+		padding-left: 0;
+	}
+	.complain8 .row .btcrow .cen{
+		padding-right: 0;
+		padding-left: 0;
+	}
 }
 @media(min-width:576px) and (max-width: 768px){
 
@@ -606,8 +702,8 @@ img {
 		border-bottom: 1px solid orange;
 	}
 	.complain3 ul li{
-		font-size: 15px;
-		padding: 5px;
+		font-size: 12px;
+		padding: 12px;
 	}
 	h4{
 		font-size: 20px !important;
@@ -615,7 +711,11 @@ img {
 	p{
 		font-size: 12px !important;
 	}
-	.complain4 i{
+	.complain4 .chungdad{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.complain4 .cp4icpn i{
 		width: 100%;
 	}
 	.complain4 .cp4{
@@ -623,6 +723,9 @@ img {
 	}
 	.complain4 .row .ic{
 		padding-bottom: 30px;
+	}
+	.complain4 .chungdad .row>div{
+	padding-left: 0;
 	}
 	.complain5 .row img{
 		width: 15%;
@@ -655,7 +758,13 @@ img {
 
 }
 @media(max-width:576px){
-
+	.menu{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.menu a img{
+		width: 80%;
+	}
 	.menu #navbarNav ul li:first-child{
 		border-top: 1px solid black;
 	}
@@ -684,11 +793,20 @@ img {
 		margin-top:90px;
 	}
 	.complain2 .couterson{
-		top: 0;
+		top: 12%;
 	}
 	.complain3 ul li{
 		font-size: 15px;
 		padding: 15px;
+	}
+	.complain3 .text20 span{
+		font-size: 30px;
+	}
+	.complain3 .text20 hr{
+		width: 300px;
+	}
+	.complain3 .text20 p{
+		font-size: 20px !important;
 	}
 	h4{
 		font-size: 20px !important;
@@ -697,11 +815,14 @@ img {
 		font-size: 10px !important;
 	}
 	.complain4 .species i{
-		width: 70%;
-		padding: 10px;
-		font-size: 25px;
+		padding: 15px;
+		font-size: 20px;
+		width: 100%;
 	}
-	.complain4 i{
+	.complain4 .species .chungdad .ahihii{
+		margin-left: 10px;
+	}
+	.complain4 .cp4icon i{
 		width: 100%;
 	}
 	.complain4 .row .ic{

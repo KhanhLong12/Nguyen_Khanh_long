@@ -1,0 +1,11 @@
+﻿Lưu ý: 
+Để chạy được các bài từ 13-28 cần import file "kma_lab_13_25.sql" vào database
+Hướng dẫn: 
+	-Tạo 1 database mới trùng tên: có tên là "kma_lab_13_25" sau đó import file trên vào.
+	-Hướng dẫn import database các bạn xem tại link blog này của mình:
+
+		http://trungquandev.com/huong-dan-import-database-trong-phpmyadmin/
+
+	-Chú ý khi bật XAMPP nhớ start cả Mysql lên nhé!
+
+Regards-Trung Quân AT10C

@@ -1,0 +1,70 @@
+/* CSS Document */
+#wraper{
+	width:1100px;
+	margin: auto;
+	}
+#top{
+	width:1100px;
+	height:80px;
+	}
+	#top h1
+	{
+		text-align: center;
+		font-family: 'Open Sans', arial;
+		color: #555;
+		font-size: 38px;
+		font-weight: 300;
+		margin-top: 27px;
+		margin-bottom: 50px;	
+	}
+#content{
+	width:1100px;
+	height:720px;
+	}
+#content-left{
+	width:62%;
+	height:720px;
+	float:left;
+	}
+	#content-left h2
+	{
+		text-align: center;
+		font-family: 'Open Sans', arial;
+		color: #737373;
+		font-size: 20px;
+		font-weight: 300;
+		margin-bottom: 15px;
+	}
+	#content-left p
+	{
+		text-align: center;
+		font-family: 'Open Sans', arial;
+		color: #737373;
+		font-size: 13px;
+		margin-bottom: 40px;
+	}
+	#content-left .logo1
+	{
+		    background-repeat: no-repeat;
+			background-image:url(img/logo1.png);
+			background-size: 352px 24px;
+			width: 352px;
+			height: 24px;
+	}
+	#content-left .logo2
+	{
+		background-image:url(img/logo2.png);
+		background-size: 300px 172px;
+		background-repeat: no-repeat;
+		width: 300px;
+		height: 172px;
+	}
+#content-right{
+	width:37%;
+	height:720px;
+	float:left;
+	background-color:#F1F1F1;
+	font: 81.25% arial, helvetica, sans-serif;
+	/*border:dotted 1px #000000;*/
+	}
+

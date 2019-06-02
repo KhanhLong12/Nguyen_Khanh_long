@@ -97,7 +97,7 @@ hr{
 }
 .complain1 img:hover{
 	transition: 0.5s;
-	box-shadow: 2px 2px 5px 5px black;
+	box-shadow: 2px 2px 5px 5px orange;
 }
 .complain2{
 	background: whitesmoke;
@@ -755,6 +755,9 @@ img {
 	.complain8 .row .checkform .poscheck2{
 		top: 63%;
 	}
+	.footer .medi{
+		margin-top: 20px;
+	}
 
 }
 @media(max-width:576px){
@@ -792,6 +795,13 @@ img {
 	.text1 .bot{
 		margin-top:90px;
 	}
+	.complain2{
+		padding-top: 40px;
+	}
+	.complain2>img{
+		width: 100%;
+		height: 400px;
+	}
 	.complain2 .couterson{
 		top: 12%;
 	}
@@ -815,7 +825,7 @@ img {
 		font-size: 10px !important;
 	}
 	.complain4 .species i{
-		padding: 15px;
+		padding: 20px;
 		font-size: 20px;
 		width: 100%;
 	}
@@ -828,9 +838,15 @@ img {
 	.complain4 .row .ic{
 		padding-bottom: 30px;
 	}
+	.complain5 {
+		padding-top: 40px;
+	}
 	.complain5 .row img{
 		top: 9%;
 		width: 18%;
+	}
+	.complain8 {
+		padding-top: 40px;
 	}
 	.complain8 .row input{
 		width: 100% !important;
@@ -854,5 +870,8 @@ img {
 	}
 	.complain8 .row .checkform .poscheck2{
 		top: 83%;
+	}
+	.footer .medi{
+		margin-top: 20px;
 	}
 }
